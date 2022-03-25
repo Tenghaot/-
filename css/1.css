@@ -206,11 +206,7 @@
     width: 50%;
     height: 3.9rem;
     text-align: center;
-    /* background: orangered; */
-    /* border: 0.01rem solid black;
-    border-radius: 0.01rem 0.01rem 0.01rem 0.01rem; */
-   float: left;
-   /* margin-left: 0.01rem; */
+    float: left;
 }
 .xq-1 img{
     width: 3.4rem;
@@ -242,7 +238,8 @@ text-align: center;
    line-height: 0.7rem;
   /* margin-right: 1rem; */
   text-align: left;
-  color: #FFBC59;
+  color: #e66510;
+  font-weight: bold;
 }
 .wz-4{
     font-size: 0.1rem;  

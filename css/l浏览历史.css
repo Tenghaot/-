@@ -6,73 +6,38 @@
     height: 1.5rem;
     width: 100%;
     background-color: #1448ae;
-    float: left;
 }
 .e{
-    height: 1.2rem;
-    width: 100%;
-    background-color:#f4f4f4;
-}
-.r{
-    height: 1.2rem;
-    width: 20%;
-    float: left;
-    text-align: center;
-    line-height: 1.2rem;
-}
-.t1{
-    color: #1448ae;
-}
-.y{
-    height: 3.5rem;
+    height: 0.8rem;
     width: 100%;
     float: left;
-}
-.yt{
-    width: 35%;
-    height: 3rem;
-    /* background-color: aqua; */
-    float: left;
+    background-color: blanchedalmond;
+    line-height: 0.8rem;
     margin-top: 0.5rem;
 }
-.yw{
-    width: 65%;
-    height: 3rem;
-    /* background-color: rgb(179, 166, 49); */
+.ewz{
+    margin-left: 0.5rem;
+    color: gray;
+}.r{
+    height: 1.5rem;
+    width: 70%;
+    margin-left: 20%;
+    background-color: #f4f4f4;
     float: left;
-}
-.xk{
-    margin-left: 0.6rem;
-    color: grey;
-}
-.wz1{
-    color: aquamarine;
-    font-weight: bold;
-}
-.wz2{
-    margin-left: 0.2rem;
-}
-.qy{
-    color: orangered;
-    font-weight: bold;
-}
-.wz4{
-    color: grey;
-    margin-left: 0.3rem;
-}
-.yw p{
-    margin-top: 0.2rem;
-}
-.wz6{
-    margin-left: 0.3rem;
-    font-weight: bold;
-    font-size: 0.4rem;
+    margin-top: 0.8rem;
 }
 .t{
+    height: 1.5rem;
+    width: 70%;
+    float: left;
+    /* background-color: aqua; */
+}
+.jg{
+    color: rgb(224, 87, 8);
     font-weight: bold;
 }
-.t1{
-    font-weight: bold;
+.twz{
+    color: rgb(71, 70, 70);
 }
 .jw{
     width: 100%;
@@ -147,29 +112,4 @@ bottom: 0.8rem;
    /* float: left; */
    left: 0.6rem;
      
- }
- .ytp{
-     width: 2.5rem;
-     height: 2.5rem;
- }
- .w{
-     border: solid 0.03rem  white;
-     width: 5rem;
-     height: 0.6rem;
-     margin: 0 auto;
-     margin-top: -0.5rem;
-     line-height: 0.6rem;
-
- }
- .wwz{
-     color: gray;
- }
- .zjt{
-     width: 0.5rem;
-     height: 0.5rem;
-     color: #EEEEEE;
-     font-size: 0.6rem;
-     margin-left: 0.4rem;
-     font-weight: 900;
-     margin-top: 0.8rem;
  }
