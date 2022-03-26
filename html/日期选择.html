@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/rem.js"></script>
+    <link rel="stylesheet" href="../calendar/css/calendar-pro.css">
+    <script src="../calendar/js/calendar-pro.js"></script>
+    <link rel="stylesheet" href="../css/日期选择.css">
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+</head>
+<body>
+    <header>
+        <span class="iconfont icon-zuojiantou"></span>
+        <div>选择日期和人数</div>
+        <span style="text-align: center;">起价说明</span>
+    </header>
+    <!-- 日期选择开始 -->
+    <div class="calendar-box demo-box"></div>
+    <!-- 日期选择结束 -->
+    <ul>
+        <li class="li">
+            <div style="height: 0.7rem; color: #F47F0D;">
+                <span style="color:#6A6A6A; font-size: 0.32rem;">成人</span>
+                <span>￥</span>
+                <span>3159</span>
+                <span>/人</span>
+            </div>
+            <div style="height: 0.7rem;" class="chice">
+            <span style="width: 30%;">-</span>
+            <span style="width: 40%; background-color: #E5E5E5;">
+                 1
+            </span>
+            <span style="width: 30%;">+</span>
+            </div>
+        </li>
+        <li class="li">
+            <div style="height: 0.7rem; color: #F47F0D;">
+                <span style="color:#6A6A6A; font-size: 0.32rem;">儿童</span>
+            </div>
+            <div style="height: 0.7rem;" class="chice">
+            <span style="width: 30%;">-</span>
+            <span style="width: 40%; background-color: #E5E5E5;">
+                 2
+            </span>
+            <span style="width: 30%;">+</span>
+            </div>
+        </li>
+        <li style="line-height: 1.2rem;">
+            <input type="checkbox" style="width: 0.4rem; height: 0.4rem; margin-top: 0.52rem;">
+            <span style="font-size: 0.32rem;margin-left: 0.2rem; color: #666666;">携带幼儿</span>
+            <span style="color: #979797;">0~2岁</span>
+        </li>
+    </ul>
+    <div class="ft">
+        <p></p>
+        <span style="font-size: 0.25rem;color: #979797;">
+            最少1人起订，年龄2-12岁，不占床，不含早，只含当地的正餐半餐、车位以及导服，其他需要自理。成人+儿童最多支持9人，<span style="color: #FA7C01;">*以上价格均为起步价</span>
+        </span>
+    </div>
+    <div class="footer">
+        <div style="width: 55%; color: #FA7C01; font-size: 0.33rem;text-align: center;line-height: 1.3rem;">
+            <span>
+                总额：￥
+                <span>6318</span>
+                明细>
+            </span>
+        </div>
+        <div style="width: 45%; background: #F4A40F;text-align: center; line-height: 1.3rem;">
+            <span style="color: white; font-size: 0.4rem;">下一步</span>
+            <span style="color: white; font-size: 0.32rem;">选择资源</span>
+        </div>
+    </div>
+    <script>
+         $('.calendar-box').calendar({
+			ele : '.demo-box', //依附
+			title : '选择预约时间',
+			beginDate : '2017-10-07',
+			endDate : '2017-12-04',
+			data : [
+				{date:'2017-10-07',data:'1072'},
+				{date:'2017-10-08',data:'1082'},
+				{date:'2017-10-09',data:'1092'},
+				{date:'2017-10-10',data:'1102'},
+				{date:'2017-10-11',data:'1112'},
+				{date:'2017-10-12',data:'1122'},
+				{date:'2017-10-13',data:'1132'},
+				{date:'2017-10-14',data:'1142'},
+				{date:'2017-10-15',data:'1156'},
+				{date:'2017-10-16',data:'1166'},
+				{date:'2017-10-17',data:'1176'},
+				{date:'2017-10-18',data:'1186'},
+				{date:'2017-10-19',data:'1196'},
+				{date:'2017-10-20',data:'1206'},
+				{date:'2017-10-21',data:'1216'},
+				{date:'2017-10-22',data:'1226'},
+				{date:'2017-10-23',data:'1236'},
+				{date:'2017-10-24',data:'1246'},
+				{date:'2017-10-25',data:'1256'},
+				{date:'2017-10-26',data:'1266'},
+				{date:'2017-10-27',data:'1276'},
+				{date:'2017-10-28',data:'1286'},
+				{date:'2017-10-29',data:'1296'},
+				{date:'2017-10-30',data:'1306'},
+				{date:'2017-10-31',data:'1313'},
+				{date:'2017-11-01',data:'1013'},
+				{date:'2017-11-02',data:'1023'},
+				{date:'2017-11-03',data:'1033'},
+				{date:'2017-11-04',data:'1043'},
+				{date:'2017-11-05',data:'1053'},
+				{date:'2017-11-06',data:'1063'},
+				{date:'2017-11-07',data:'1073'},
+				{date:'2017-11-08',data:'1083'},
+				{date:'2017-11-09',data:'1093'},
+				{date:'2017-11-10',data:'1103'},
+				{date:'2017-11-11',data:'1113'},
+				{date:'2017-11-12',data:'1122'},
+				{date:'2017-11-13',data:'1139'},
+				{date:'2017-11-14',data:'1149'},
+				{date:'2017-11-15',data:'1159'},
+				{date:'2017-11-16',data:'1169'},
+				{date:'2017-11-17',data:'1179'},
+				{date:'2017-11-18',data:'1189'},
+				{date:'2017-11-19',data:'1199'},
+				{date:'2017-11-20',data:'1209'},
+				{date:'2017-11-21',data:'1219'},
+				{date:'2017-11-22',data:'1229'},
+				{date:'2017-11-23',data:'1239'},
+				{date:'2017-11-24',data:'1249'},
+				{date:'2017-11-25',data:'1259'},
+				{date:'2017-11-26',data:'1267'},
+				{date:'2017-11-27',data:'1277'},
+				{date:'2017-11-28',data:'1287'},
+				{date:'2017-11-29',data:'1297'},
+				{date:'2017-11-30',data:'1307'},
+				{date:'2017-12-01',data:'1217'},
+				{date:'2017-12-02',data:'1227'},
+				{date:'2017-12-03',data:'1237'},
+				{date:'2017-12-04',data:'1247'},
+			]
+		});
+		//价格
+			var data;
+			var price_text = parseFloat($('.price').text());
+			var num;
+			var price;
+			$('.ht-rili-td').click(function () {
+				price_text = parseFloat($('.price').text());
+				data = parseFloat($('.calendar-box').calendarGetActive().money);
+				$('.price').text(data);
+				$('.num').text(1);
+				$('.sum').text(data);
+			});
+			$('.jia').click(function () {
+				num = parseFloat($('.num').text()) + 1;
+				price_text = parseFloat($('.price').text()) * num;
+				if (num > 1) {
+					$('.num').text(num);
+					$('.sum').text(price_text);
+				} else {
+					$('.num').text(0);
+					$('.sum').text(0);
+					$('.price').text(0);
+				}
+			})
+			$('.jian').click(function () {
+				num = parseFloat($('.num').text()) - 1;
+				price = parseFloat($('.price').text());
+				price_text = parseFloat($('.price').text()) * num;
+				if (num <= 1) {
+					$('.num').text(1);
+					$('.sum').text(price);
+					$('.price').text(price);
+				} else {
+					$('.num').text(num);
+					$('.sum').text(price_text);
+				}
+			})
+			//儿童
+			var num_children;
+			$('.jia-children').click(function () {
+				num_children = parseFloat($('.num-children').text()) + 1;
+				$('.num-children').text(num_children);
+			})
+			$('.jian-children').click(function () {
+				num_children = parseFloat($('.num-children').text()) - 1;
+				if (num_children <= 0) {
+					$('.num-children').text(0);
+				} else {
+					$('.num-children').text(num_children);
+				}
+			})
+    </script>
+</body>
+</html>

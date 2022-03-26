@@ -1,0 +1,218 @@
+header{
+    height: 5.1rem;
+    width: 100%;
+    background: url(../img/顶部.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position: relative;
+}
+.top{
+    width: 100%;
+    height: 1rem;
+    background: black;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+.zj{
+    background-image: url(../img/sprites.png);
+    width: 1.2rem;
+    height: 0.8rem;
+    background-position: 1229px -20px;
+    color: white;
+    background-size: 1079%;
+}
+.thing{
+    flex: 1;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size: 0.36rem;
+    color: white;
+}
+.share{
+    width: 1.7rem;
+    height: 0.9rem;
+    line-height: 1.1rem;
+}
+.bottom{
+    width: 100%;
+    height: 0.45rem;
+    background: black;
+    /* opacity: 0.3; */
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    line-height: 0.45rem;
+}
+h2{
+    font-weight: 500;
+    font-size: 0.34rem;
+    padding-left: 0.5rem;
+    margin: 0;
+    font-family: "PingFangSC-Regular";
+}
+.jlt{
+    background-image: url(../img/sprites.png);
+    background-position: 14px 523px;
+    width: 96px;
+    height: 22px;
+    background-size: 275%;
+    margin-top: 0.12rem;
+    margin-bottom: 0.1rem;
+}
+.p{
+    display: inline-block;
+    padding: 2px 2px;
+    font-size: 0.26rem;
+    background: #EFEFEF;
+    color: #AFAFAF;
+    border: #AFAFAF 0.5px solid;
+}
+.money{
+    height: 0.8rem;
+    padding-left: 0.45rem;
+    margin-top: -0.4rem;
+}
+.po{
+    font-size: 0.1rem;
+    color: #AFAFAF;
+}
+.yh{
+    background: #FEEBCD;
+    height: 2rem;
+    width: 100%;
+    border-top: 1px #EAE8E1 solid;
+    border-bottom: 1px #EAE8E1 solid;
+    margin-top: 0.4rem;
+    position: relative;
+}
+.yhs{
+    height: 0.8rem;
+    width: 100%;
+    display: flex;
+    padding-top: 0.2rem;
+}
+.yhx{
+    height: 0.7rem;
+    width: 100%;
+    display: flex;
+}
+.icon-youjiantou{
+    position: absolute;
+    right: 0.2rem;
+    bottom: 0.6rem;
+    font-size: 0.4rem !important;
+}
+.pf{
+    height: 4rem;
+    width: 100%;
+    border-bottom: 1px #EAE8E1 solid;
+
+}
+.pf li{
+    list-style: none;
+}
+.fz{
+    color: #AFAFAF;
+}
+/* tab内容 */
+.tab{
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-weight: 550;
+    font-family: "PingFangSC-Regular";
+    color: #666666;
+}
+.border{
+    border-bottom: 5px #F4C713 solid;
+    color: #3E9FB5;
+}
+.tab1{
+    background-image: url(../img/内容-蓝色.png);
+    background-color: #6F9ABD;
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    width: 100%;
+    height: 18rem;
+}
+.tab2{
+    width: 100%;
+    height: 18rem;
+    display: none;
+}
+.date{
+    color: white;
+    background: #318EBC;
+    width: 0.8rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    float: left;
+    margin-top: 0.5rem;
+}
+.tab2 li{
+    margin-bottom: 0.3rem;
+    font-weight: 600;
+}
+.dash{
+    width: 0.02rem;
+    height: 17rem;
+    border-right: 2px #318EBC dotted;
+    margin-left: 1.3rem;
+}
+.tab3{
+    width: 100%;
+    height: 15.2rem;
+    padding-top: 0.5rem;
+    position: relative;
+    display: none;
+}
+.dd{
+    width: 1rem;
+    height: 1rem;
+    background-image: url(../img/sprites.png);
+    background-position: -237px 382px;
+    background-size: 1033%;
+    float: left;
+}
+.buy{
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+}
+.buy1{
+    width: 60%;
+    height: 1rem;
+    background: #EDEDED;
+    border-top: 1px #DCDCDC solid;
+    display: flex;
+}
+.buy2{
+    flex: 1;
+    line-height: 1rem;
+    background: #F1A30F;
+    text-align: center;
+    font-size: 0.32rem;
+    color: white;
+}
+.love{
+    width: 33%;
+    border-right: 1px #DCDCDC solid;
+    background-image: url(../img/sprites.png);
+    background-size: 528% auto;
+    background-position: -608px 835px;
+}
+.jh{
+    width: 33%;
+    border-right: 1px #DCDCDC solid;
+    background-image: url(../img/sprites.png);
+    background-size: 648% auto;
+    background-position: -811px 1018px;
+}
+.wx{
+    flex: 1;
+    background-image: url(../img/sprites.png);
+    background-size: 648% auto;
+    background-position: -862px 1024px;
+}

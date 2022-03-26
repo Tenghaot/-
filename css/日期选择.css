@@ -1,0 +1,82 @@
+body{
+    background: #EEEEEE;
+}
+ul{
+    list-style: none;
+    background-color: white;
+    margin-bottom: 0px;
+}
+header{
+    width: 100%;
+    height: 1.2rem;
+    background-color: #1448AE;
+    display: flex;
+}
+header span{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    color: white;
+    line-height: 1.4rem;
+}
+header div{
+    flex: 1;
+    color: white;
+    text-align: center;
+    line-height: 1.4rem;
+    font-size: 0.30rem;
+}
+.icon-zuojiantou{
+    font-size: 0.5rem !important;
+    color: white;
+    margin-left: 0.3rem;
+    /* margin-top: 0.35rem; */
+}
+li{
+    width: 100%;
+    height: 1.2rem;
+    border-bottom: 1px solid #DBDBDB;
+    background-color: white;
+}
+.li{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.chice{
+    width: 2.3rem;
+    border: #CDCDCD 1px solid;
+    margin-bottom: 0.25rem;   
+    margin-right: 0.4rem;
+}    
+.chice span{
+    display: inline-block;
+    height: 0.7rem;
+    float: left;
+    font-size: 0.42rem;
+    color: #686868;
+    text-align: center;
+    line-height: 0.7rem;
+}
+.ft{
+    height: 1.5rem;
+    background: white;
+    padding: 0.2rem 0.4rem 0rem 0.8rem;
+    display: flex;
+}
+.ft p{
+    display: inline-block;
+    width: 1.2rem;
+    height: 1rem;
+    margin: 0;
+    background: url(../img/sprites.png);
+    background-position: -940px 260px;
+    background-size: 1700%;
+    /* float: left; */
+}
+.footer{
+    height: 1.3rem;
+    background: white;
+    display: flex;
+    border-top: 1px #DEDEDE solid;
+}

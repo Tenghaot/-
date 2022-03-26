@@ -1,0 +1,283 @@
+header{
+    width: 100%;
+    height: 1rem;
+    background: black;
+    opacity: 0.5;
+    line-height: 1rem;
+    position: relative;
+    position: fixed;
+    z-index: 999;
+}
+.icon-zuojiantou{
+    color: white;
+    font-size: 0.5rem !important;
+    margin-left: 0.3rem;
+}
+.ss{
+    width: 5rem;
+    height: 0.55rem;
+    border: 1px #C5C5C5 solid;
+    border-radius: 13.5px;
+    position: absolute;
+    left: 1rem;
+    top: 0.2rem;
+}
+.p{
+    margin: 0rem;
+    height: 0.55rem;
+    width: 1.4rem;
+    border-right: 1px #C5C5C5 solid;
+}
+.dw{
+    width: 0.5rem;
+    height: 0.5rem;
+    display: inline-block;
+    background: url(../img/sprites.png);
+    background-position: -671px 342px;
+    background-size: 1488%;
+}
+.bj{
+    color: white;
+    position: absolute;
+    top: -0.19rem;
+    left: 0.55rem;
+}
+.p2{
+    width: 3.58rem;
+    margin: 0rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.icon-sousuo{
+    color: white;
+    position: absolute;
+    top: -0.19rem;
+    left: 0.2rem;
+    font-weight: 600;
+}
+.key{
+    color: #C5C5C5;
+    position: absolute;
+    left: 0.7rem;
+    top: -0.2rem;
+
+}
+/* 头部结束 */
+.sw{
+    width: 100%;
+    height: 4.5rem;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.swiper-pagination{
+    left: 150px !important;
+}
+.swiper-pagination-bullet{
+    border: #0099CC 1px solid;
+    background: transparent !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+    background: #0099CC !important;
+}
+/* 轮播图结束 */
+.foreign{
+    height: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.foreign p{
+    margin-bottom: 0rem;
+}
+.fj{
+    background-image: url(../img/sprites.png) !important; 
+    background-position: -20px 573px !important;
+    background-size: 1000% !important;
+}
+.bag{
+    background-image: url(../img/sprites.png) !important;
+    background-position: -154px 573px !important;
+    background-size: 1000% !important;
+}
+.mt{
+    background-image: url(../img/sprites.png) !important;
+    background-position: -88px 573px !important;
+    background-size: 1000% !important;
+}
+.foot{
+    background-image: url(../img/sprites.png) !important;
+    background-position: -221px 573px !important;
+    background-size: 1000% !important;
+}
+/* 国外四图结束 */
+.three{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+}
+.threel{
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+.threel img{
+    width: 100%;
+    height: 100%;
+}
+.threel p{
+    position: absolute;
+    top: 0.2rem;
+    left: 1.1rem;
+    margin-top: 0px;
+    color: white;
+}
+.threer p{
+    position: absolute;
+    top: 0.2rem;
+    left: 0.7rem;
+    margin-top: 0px;
+    color: white;
+}
+.threer{
+    flex: 1;
+    position: relative;
+}
+.threer img{
+    width: 100%;
+    height: 100%;
+}
+.threet{
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.ll p{
+    position: absolute;
+    top: 2.4rem;
+    left: 1.1rem;
+    margin-top: 0px;
+    color: white;
+}
+.rr p{
+    position: absolute;
+    top: 2.4rem;
+    left: 0.7rem;
+    margin-top: 0px;
+    color: white;
+}
+/* 三部分结束 */
+.foue{
+    height: 1rem;
+    width: 100%;
+    position: relative;
+    margin-bottom: 0px;
+}
+.blu{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url(../img/sprites.png) !important;
+    background-position: -304px 472px !important;
+    background-size: 1000% !important;
+}
+.ftext{
+    line-height: 1rem;
+    position: absolute;
+    color: #4CA8F5;
+    font-size: 0.48rem;
+}
+
+.fouet{
+    width: 100%;
+    height: 13rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start
+}
+.fouet div{
+    width: 48.5%;
+    height: 4rem;
+    margin-bottom: 0.07rem;
+    position: relative;
+}
+.fouet img{
+    width: 100%;
+}
+.mg{
+    position: absolute;
+    bottom: 0.95rem;
+    margin: 0px;
+    font-size: 0.3rem;
+    padding-right: 0.06rem;
+    padding-left: 0.16rem;
+}
+.dool{
+    margin: 0;
+    position: absolute;
+    bottom: 0.4rem;
+    padding-right: 0.06rem;
+    padding-left: 0.16rem;
+    font-size: 0.29rem;
+    color: #999999;
+}
+/* 最后开始 */
+.footer{
+    width: 100%;
+    height: 1.1rem;
+    position: fixed;
+    bottom: 0rem;
+    background: #EEEEEE;
+    display: flex;
+    justify-content: space-around;
+}
+.footer div{
+    width: 25%;
+    height: 1rem;
+    text-align: center;
+}
+.ft{
+    width: 0.9rem;
+    height: 0.7rem;
+    background-image: url(../img/sprites.png);
+    background-position: -250px 344px;
+    background-size: 800% auto;
+    margin-left: 0.45rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.ft2{
+    width: 0.9rem;
+    height: 0.7rem;
+    background-image: url(../img/sprites.png);
+    background-position: -50px 420px;
+    background-size: 800% auto;
+    margin-left: 0.45rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.ft3{
+    width: 0.9rem;
+    height: 0.7rem;
+    background-image: url(../img/sprites.png);
+    background-position: -88px 420px;
+    background-size: 800% auto;
+    margin-left: 0.45rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.ft4{
+    width: 0.9rem;
+    height: 0.7rem;
+    background-image: url(../img/sprites.png);
+    background-position: -129px 420px;
+    background-size: 800% auto;
+    margin-left: 0.45rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
